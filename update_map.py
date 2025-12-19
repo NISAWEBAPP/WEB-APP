@@ -6,7 +6,7 @@ import os
 def update_data():
     # Adjusting paths to match your folder structure
     csv_file = 'NISA TABLA.csv'
-    js_file = 'layers/Combinado_3.js' 
+    js_file = 'layers/Combinado.js' 
     
     if not os.path.exists(csv_file):
         print(f"Error: {csv_file} not found in root.")
@@ -50,7 +50,7 @@ def update_data():
 
     # Write back to the JS file with the variable name
     with open(js_file, 'w', encoding='utf-8') as f:
-        f.write("var json_Combinado_3 = " + json.dumps(data, indent=2, ensure_ascii=False) + ";")
+        f.write("var json_Combinado = " + json.dumps(data, indent=2, ensure_ascii=False) + ";")
     
     print(f"Success: Updated {updated_count} features in {js_file}")
 
