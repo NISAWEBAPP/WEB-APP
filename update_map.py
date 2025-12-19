@@ -2,7 +2,12 @@ import pandas as pd
 import json
 import re
 import os
-
+print("Current directory:", os.getcwd())
+print("Files in root:", os.listdir('.'))
+if os.path.exists('layers'):
+    print("Files in 'layers' folder:", os.listdir('layers'))
+else:
+    print("ERROR: Folder 'layers' does not exist!")
 def update_data():
     csv_file = 'NISA TABLA.csv'
     js_file = 'layers/Combinado_3.js' 
