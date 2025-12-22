@@ -10030,5 +10030,5 @@ ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,TRUE,‚è
 90-27-4,27,4,360,Vendido,180.000Gs.,23.400.000Gs.,50%,11.700.000Gs.,,,
 90-28-2,28,2,360,Vendido,220.000Gs.,28.600.000Gs.,50%,14.300.000Gs.,,,
 90-28-4,28,4,360,Vendido,180.000Gs.,23.400.000Gs.,50%,11.700.000Gs.,,,
-90-28-3,28,3,,Vendido,,,,,,,
+90-28-3,28,3,,Plaza,,,,,,,
 90-27-3,27,3,,Plaza,,,,,,,
