@@ -1,4 +1,4 @@
-ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,true,ACTUALIZADOR
+ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,false,ACTUALIZADOR
 90- nuevo Amanecer,,,,,,,,,,,
 1-1-1,1,1,"362,86",Libre,370000,48100000,0.5,24050000,,,
 1-1-2,1,2,"362,07",Vendido,480000,62400000,0.5,31200000,,,
