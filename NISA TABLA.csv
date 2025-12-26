@@ -1,4 +1,4 @@
-ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,FALSE,✅ EXITO
+ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,TRUE,⏳ UPDATING...
 01- LAS PIEDRAS,,,,,,,,,,,
 1-1-1,1,1,"362,86",Vendido,370.000Gs.,48.100.000Gs.,50%,24.050.000Gs.,,,
 1-1-2,1,2,"362,07",Vendido,480.000Gs.,62.400.000Gs.,50%,31.200.000Gs.,,,
@@ -10080,7 +10080,7 @@ ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,FALSE,�
 92-6-3,6,3,,Libre,  450.000 ,58.500.000Gs.,70%,315.000Gs.,,,
 92-6-4,6,4,,Libre,  450.000 ,58.500.000Gs.,70%,315.000Gs.,,,
 93- VILLA DIANA 2,,,,,,,,,,,
-93-1-1,1,1,,Vendido,  1.700.000 ,221.000.000Gs.,70%,1.190.000Gs.,,,
+93-1-1,1,1,,Libre,  1.700.000 ,221.000.000Gs.,70%,1.190.000Gs.,,,
 93-1-2,1,2,,Libre,  1.400.000 ,182.000.000Gs.,70%,980.000Gs.,,,
 93-1-3,1,3,,Libre,  1.400.000 ,182.000.000Gs.,70%,980.000Gs.,,,
 93-1-4,1,4,,Libre,  1.400.000 ,182.000.000Gs.,70%,980.000Gs.,,,
