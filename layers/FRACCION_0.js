@@ -2463,7 +2463,7 @@ var json_FRACCION_0 = {
     {
       type: "Feature",
       properties: {
-        "FRACCIONES_Código - Nombre de Fracción": "90 - BRISAS DE LOS SALTOS",
+        "FRACCIONES_Código - Nombre de Fracción": "91 - NUEVO AMANECER",
       },
       geometry: {
         type: "MultiPolygon",
@@ -2538,3 +2538,4 @@ var json_FRACCION_0 = {
     },
   ],
 };
+
