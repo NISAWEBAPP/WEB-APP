@@ -1,4 +1,4 @@
-ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,TRUE,⏳ UPDATING...
+ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,TRUE,⏳ ACTUALIZANDO...
 01- LAS PIEDRAS,,,,,,,,,,,
 1-1-1,1,1,"362,86",Vendido,370.000Gs.,48.100.000Gs.,50%,24.050.000Gs.,,1,
 1-1-2,1,2,"362,07",Vendido,480.000Gs.,62.400.000Gs.,50%,31.200.000Gs.,,1,
@@ -20,9 +20,9 @@ ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,TRUE,�
 1-2-4,2,4,"435,64",Vendido,480.000Gs.,62.400.000Gs.,50%,31.200.000Gs.,,1,
 1-2-5,2,5,"435,6",Vendido,330.000Gs.,42.900.000Gs.,50%,21.450.000Gs.,,1,
 1-2-6,2,6,"435,57",Vendido,330.000Gs.,42.900.000Gs.,50%,21.450.000Gs.,,1,
-1-2-7,2,7,"436,16",Recuperado,0Gs.,0Gs.,50%,0Gs.,,1,
-1-2-8,2,8,"437,15",Recuperado,600.000Gs.,78.000.000Gs.,50%,39.000.000Gs.,,1,
-1-2-9,2,9,"438,15",Recuperado,600.000Gs.,78.000.000Gs.,50%,39.000.000Gs.,,1,
+1-2-7,2,7,"436,16",Recuperado Libre,0Gs.,0Gs.,50%,0Gs.,,1,
+1-2-8,2,8,"437,15",Recuperado Libre,600.000Gs.,78.000.000Gs.,50%,39.000.000Gs.,,1,
+1-2-9,2,9,"438,15",Recuperado Libre,600.000Gs.,78.000.000Gs.,50%,39.000.000Gs.,,1,
 1-2-10,2,10,"439,15",Vendido,350.000Gs.,45.500.000Gs.,50%,22.750.000Gs.,,1,
 1-2-11,2,11,"440,14",Cancelado,350.000Gs.,45.500.000Gs.,50%,22.750.000Gs.,,1,
 1-2-12,2,12,"408,14",Cancelado,510.000Gs.,66.300.000Gs.,50%,33.150.000Gs.,,1,
