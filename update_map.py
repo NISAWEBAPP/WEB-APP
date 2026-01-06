@@ -7,18 +7,9 @@ def update_data():
     csv_file = 'NISA TABLA.csv'
     js_file = 'layers/Combinado_3.js' 
     
-    # 1. Define exactly which columns you want to show in the map popup
-    # This removes the "EXITO", "UPDATING", and "Unnamed" columns
     allowed_columns = [
-        "ID", 
-        "Manzana", 
-        "Lote", 
-        "Superficie", 
-        "Estado", 
-        "Cuota", 
-        "Total", 
-        "Descuento", 
-        "Contado"
+        "ID", "Manzana", "Lote", "Superficie", 
+        "Estado", "Cuota", "Total", "Descuento", "Contado"
     ]
 
     if not os.path.exists(csv_file):
@@ -28,20 +19,18 @@ def update_data():
         print(f"Error: {js_file} no encontrado.")
         return
 
-    # Load CSV
+    # Load CSV data
     df = pd.read_csv(csv_file)
     df = df[df['ID'].notnull()]
     df['ID'] = df['ID'].astype(str).str.strip()
     df = df.drop_duplicates('ID', keep='first')
-    
-    # Convert CSV to dictionary
     csv_lookup = df.set_index('ID').to_dict(orient='index')
 
     # Read the JavaScript layer file
     with open(js_file, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Extract JSON part from the JS variable
+    # Extract JSON part
     start = content.find('{')
     end = content.rfind('}')
     json_str = content[start:end+1]
@@ -52,28 +41,33 @@ def update_data():
     
     data = json.loads(json_str)
 
-    # 2. Update data with filtering logic
+    # Update data AND fix geometry structure
     for feature in data.get('features', []):
+        # --- PART 1: FIX BRACKETS (MultiPolygon to Polygon) ---
+        if feature['geometry']['type'] == "MultiPolygon":
+            feature['geometry']['type'] = "Polygon"
+            coords = feature['geometry']['coordinates']
+            # If it has 4 levels, coords[0] removes the extra outer set
+            if len(coords) > 0:
+                feature['geometry']['coordinates'] = coords[0]
+
+        # --- PART 2: UPDATE PROPERTIES FROM CSV ---
         fid = str(feature['properties'].get('ID', '')).strip()
         if fid in csv_lookup:
             raw_row = csv_lookup[fid]
-            
-            # Create a clean property dictionary using only allowed columns
-            # This also ensures "Descuento" is mapped correctly
             clean_properties = {}
             for col in allowed_columns:
                 if col in raw_row:
                     val = raw_row[col]
                     clean_properties[col] = str(val) if pd.notnull(val) else ""
-            
-            # Replace the old properties entirely with the filtered ones
             feature['properties'] = clean_properties
 
     # Save changes back to the JS file
+    # Note: Using json_Combinado_3 to match your original variable name
     with open(js_file, 'w', encoding='utf-8') as f:
         f.write("var json_Combinado_3 = " + json.dumps(data, indent=2, ensure_ascii=False) + ";")
     
-    print("¡Mapa actualizado con éxito y columnas filtradas!")
+    print("¡Mapa actualizado, columnas filtradas y geometría corregida a 3 brackets!")
 
 if __name__ == "__main__":
     update_data()
