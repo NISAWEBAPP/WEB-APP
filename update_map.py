@@ -2,65 +2,84 @@ import pandas as pd
 import json
 import re
 import os
-print("Current directory:", os.getcwd())
-print("Files in root:", os.listdir('.'))
-if os.path.exists('layers'):
-    print("Files in 'layers' folder:", os.listdir('layers'))
-else:
-    print("ERROR: Folder 'layers' does not exist!")
+
 def update_data():
-    csv_file = 'NISA TABLA.csv'
-    js_file = 'layers/Combinado_3.js' 
+    # --- CONFIGURATION FOR NISA ---
+    csv_file = 'layers/NISA_TABLA.csv' 
+    js_file = 'layers/NISA_3.js'
+    js_variable_name = "var json_NISA_3 =" 
     
-    # --- Diagnóstico de archivos ---
-    print(f"Buscando archivos en: {os.getcwd()}")
-    print(f"Contenido de la carpeta principal: {os.listdir('.')}")
-    if os.path.exists('layers'):
-        print(f"Contenido de la carpeta 'layers': {os.listdir('layers')}")
-    else:
-        print("ERROR: No se encontró la carpeta 'layers'")
-    # -------------------------------
+    # "Entrega" is REMOVED from this list so the script deletes it from the JS file
+    ALLOWED_COLUMNS = [
+        "ID", "Manzana", "Lote", "Superficie", "Estado", 
+        "Cuota", "Total", "Descuento", "Contado"
+    ]
+    # ------------------------------
 
-    if not os.path.exists(csv_file):
-        print(f"Error: {csv_file} no encontrado.")
-        return
-    if not os.path.exists(js_file):
-        print(f"Error: {js_file} no encontrado.")
+    print(f"--- STARTING NISA UPDATE: {js_file} ---")
+
+    if not os.path.exists(csv_file) or not os.path.exists(js_file):
+        print(f"ERROR: Files not found. Looking for {js_file} and {csv_file}")
         return
 
-    # Cargar CSV
-    df = pd.read_csv(csv_file)
-    df = df[df['ID'].notnull()]
-    df['ID'] = df['ID'].astype(str).str.strip()
-    df = df.drop_duplicates('ID', keep='first')
-    csv_lookup = df.set_index('ID').to_dict(orient='index')
+    # 1. Load CSV and filter columns
+    try:
+        df = pd.read_csv(csv_file, dtype=str)
+        # Only keep columns in our whitelist
+        cols_to_keep = [c for c in df.columns if c in ALLOWED_COLUMNS]
+        df = df[cols_to_keep].fillna("")
+        
+        # Create lookup dictionary using 'ID'
+        csv_lookup = df.set_index('ID').to_dict(orient='index')
+        print(f"Loaded {len(csv_lookup)} properties from {csv_file}")
+    except Exception as e:
+        print(f"CSV ERROR: {e}")
+        return
 
-    # Leer JS
+    # 2. Read JS and extract JSON
     with open(js_file, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    start = content.find('{')
-    end = content.rfind('}')
+    start, end = content.find('{'), content.rfind('}')
     json_str = content[start:end+1]
     
-    # Limpiar formato JS a JSON
+    # Fix potential JSON formatting issues
     json_str = re.sub(r'([{,])\s*([a-zA-Z0-9_]+)\s*:', r'\1"\2":', json_str)
-    json_str = re.sub(r',\s*([}\]])', r'\1', json_str)
     
-    data = json.loads(json_str)
+    try:
+        data = json.loads(json_str)
+    except Exception as e:
+        print(f"JSON DECODE ERROR: {e}")
+        return
 
-    # Actualizar datos
+    # 3. UPDATE and PURGE
+    update_count = 0
+    purge_count = 0
+    
     for feature in data.get('features', []):
-        fid = str(feature['properties'].get('ID', '')).strip()
+        props = feature.get('properties', {})
+        fid = str(props.get('ID', '')).strip()
+        
+        # Update values from CSV if ID matches
         if fid in csv_lookup:
-            new_vals = {k: (str(v) if pd.notnull(v) else "") for k, v in csv_lookup[fid].items()}
-            feature['properties'].update(new_vals)
+            props.update(csv_lookup[fid])
+            update_count += 1
+            
+        # PURGE: Delete any key NOT in the allowed list (removes "Entrega", "field_11", etc.)
+        keys_to_delete = [k for k in list(props.keys()) if k not in ALLOWED_COLUMNS]
+        for k in keys_to_delete:
+            del props[k]
+            purge_count += 1
 
-    # Guardar cambios
+    print(f"NISA Features updated: {update_count}")
+    print(f"Unwanted fields deleted (including 'Entrega'): {purge_count}")
+
+    # 4. Save the cleaned file
+    new_content = f"{js_variable_name} {json.dumps(data, indent=2, ensure_ascii=False)};"
     with open(js_file, 'w', encoding='utf-8') as f:
-        f.write("var json_Combinado_3 = " + json.dumps(data, indent=2, ensure_ascii=False) + ";")
+        f.write(new_content)
     
-    print("¡Mapa actualizado con éxito!")
+    print(f"--- SUCCESS: {js_file} is now clean and updated. ---")
 
 if __name__ == "__main__":
     update_data()
