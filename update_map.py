@@ -6,7 +6,7 @@ import os
 def update_data():
     # --- CONFIGURATION ---
     # Source is now the NISA table
-    csv_file = 'layers/NISA_TABLA.csv' 
+    csv_file = 'NISA_TABLA.csv' 
     # Output is the Combinado file
     js_file = 'layers/COMBINADO_3.js'
     js_variable_name = "var json_COMBINADO_3 =" 
