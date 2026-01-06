@@ -4,34 +4,35 @@ import re
 import os
 
 def update_data():
-    # --- CONFIGURATION FOR NISA ---
+    # --- CONFIGURATION ---
+    # Source is now the NISA table
     csv_file = 'layers/NISA_TABLA.csv' 
-    js_file = 'layers/NISA_3.js'
-    js_variable_name = "var json_NISA_3 =" 
+    # Output is the Combinado file
+    js_file = 'layers/COMBINADO_3.js'
+    js_variable_name = "var json_COMBINADO_3 =" 
     
-    # "Entrega" is REMOVED from this list so the script deletes it from the JS file
+    # "Entrega" is NOT in this list, so it will be PURGED (deleted)
     ALLOWED_COLUMNS = [
         "ID", "Manzana", "Lote", "Superficie", "Estado", 
         "Cuota", "Total", "Descuento", "Contado"
     ]
-    # ------------------------------
+    # ---------------------
 
-    print(f"--- STARTING NISA UPDATE: {js_file} ---")
+    print(f"--- STARTING UPDATE: {csv_file} -> {js_file} ---")
 
     if not os.path.exists(csv_file) or not os.path.exists(js_file):
-        print(f"ERROR: Files not found. Looking for {js_file} and {csv_file}")
+        print(f"ERROR: File not found. Check paths for {csv_file} and {js_file}")
         return
 
-    # 1. Load CSV and filter columns
+    # 1. Load CSV and filter allowed columns
     try:
         df = pd.read_csv(csv_file, dtype=str)
-        # Only keep columns in our whitelist
         cols_to_keep = [c for c in df.columns if c in ALLOWED_COLUMNS]
         df = df[cols_to_keep].fillna("")
         
         # Create lookup dictionary using 'ID'
         csv_lookup = df.set_index('ID').to_dict(orient='index')
-        print(f"Loaded {len(csv_lookup)} properties from {csv_file}")
+        print(f"Loaded {len(csv_lookup)} properties from CSV.")
     except Exception as e:
         print(f"CSV ERROR: {e}")
         return
@@ -43,7 +44,7 @@ def update_data():
     start, end = content.find('{'), content.rfind('}')
     json_str = content[start:end+1]
     
-    # Fix potential JSON formatting issues
+    # Fix potential JSON formatting issues from JS format
     json_str = re.sub(r'([{,])\s*([a-zA-Z0-9_]+)\s*:', r'\1"\2":', json_str)
     
     try:
@@ -65,21 +66,21 @@ def update_data():
             props.update(csv_lookup[fid])
             update_count += 1
             
-        # PURGE: Delete any key NOT in the allowed list (removes "Entrega", "field_11", etc.)
+        # PURGE: Delete any key NOT in the allowed list (this removes "Entrega")
         keys_to_delete = [k for k in list(props.keys()) if k not in ALLOWED_COLUMNS]
         for k in keys_to_delete:
             del props[k]
             purge_count += 1
 
-    print(f"NISA Features updated: {update_count}")
-    print(f"Unwanted fields deleted (including 'Entrega'): {purge_count}")
+    print(f"Features updated: {update_count}")
+    print(f"Fields purged: {purge_count}")
 
     # 4. Save the cleaned file
     new_content = f"{js_variable_name} {json.dumps(data, indent=2, ensure_ascii=False)};"
     with open(js_file, 'w', encoding='utf-8') as f:
         f.write(new_content)
     
-    print(f"--- SUCCESS: {js_file} is now clean and updated. ---")
+    print(f"--- SUCCESS: {js_file} updated and cleaned ---")
 
 if __name__ == "__main__":
     update_data()
