@@ -19,6 +19,16 @@ var json_FRACCIONcopiar_4 = {
     {
       type: "Feature",
       properties: {
+        FRACCION: "12",
+        "FRACCIONES_Código - Nombre de Fracción": "12 - RESID. LA VICTORIA",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [-57.556139804597827, -25.034640060998704],
+      },
+    {
+      type: "Feature",
+      properties: {
         FRACCION: "18",
         "FRACCIONES_Código - Nombre de Fracción": "18 - RESID. LUCAS",
       },
@@ -832,3 +842,4 @@ var json_FRACCIONcopiar_4 = {
     },
   ],
 };
+
