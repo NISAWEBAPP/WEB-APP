@@ -4,6 +4,12 @@ on:
     paths:
       - 'NISA TABLA.csv'
 
+# 1. Added permissions to allow deployment
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,3 +35,21 @@ jobs:
           git add layers/Combinado_3.js
           git commit -m "Auto-update layers/Combinado_3.js from CSV" || echo "No changes"
           git push
+
+      # 2. Upload the updated files as an artifact for deployment
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.' # This uploads your whole repo (including the new Combinado_3.js)
+
+  deploy:
+    # 3. This job actually triggers the GitHub Pages update
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
