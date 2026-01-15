@@ -767,7 +767,7 @@ var json_FRACCIONcopiar_4 = {
       type: "Feature",
       properties: {
         FRACCION: "90",
-        "FRACCIONES_Código - Nombre de Fracción": "90 - BRISAS DE LOS SALTOS",
+        "FRACCIONES_Código - Nombre de Fracción": "91- NUEVO AMANECER",
       },
       geometry: {
         type: "Point",
@@ -843,3 +843,4 @@ var json_FRACCIONcopiar_4 = {
     },
   ],
 };
+
