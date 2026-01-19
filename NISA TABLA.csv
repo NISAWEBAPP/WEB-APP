@@ -9908,7 +9908,7 @@ ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,FALSE,â
 91-13-2,13,2,No encontrado,Plaza,0Gs.,0Gs.,50%,0Gs.,,91,
 91-13-1,13,1,No encontrado,Plaza,0Gs.,0Gs.,50%,0Gs.,,91,
 91-27-1,27,1,360,Vendido,240.000Gs.,31.200.000Gs.,50%,15.600.000Gs.,,91,
-91-28-1,28,1,360,Bloqueado Administrativo,240.000Gs.,31.200.000Gs.,50%,15.600.000Gs.,,91,
+91-28-1,28,1,360,Vendido,240.000Gs.,31.200.000Gs.,50%,15.600.000Gs.,,91,
 91-6-6,6,6,,Libre,450.000Gs.,58.500.000Gs.,50%,29.250.000Gs.,,91,
 91-6-7,6,7,"362,19",Libre,460.000Gs.,59.800.000Gs.,50%,29.900.000Gs.,,91,
 91-7-1,7,1,360,Vendido,500.000Gs.,65.000.000Gs.,50%,32.500.000Gs.,,91,
