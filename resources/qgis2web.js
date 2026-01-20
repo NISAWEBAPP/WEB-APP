@@ -1093,27 +1093,36 @@ document.addEventListener('DOMContentLoaded', function() {
             geolocateButton.style.backgroundColor = 'rgba(0, 60, 136, 0.7)';
             trackingActive = true;
 
-            watchId = navigator.geolocation.watchPosition(function(pos) {
-                var coords = [pos.coords.longitude, pos.coords.latitude];
-                var accuracy = ol.geom.Polygon.circular(coords, pos.coords.accuracy);
-                var mapCoords = ol.proj.fromLonLat(coords);
+            var firstPositionSet = false; // Flag to track the initial lock
 
-                positionSource.clear();
-                positionSource.addFeatures([
-                    // Accuracy Circle
-                    new ol.Feature(accuracy.transform('EPSG:4326', map.getView().getProjection())),
-                    // User Dot
-                    new ol.Feature(new ol.geom.Point(mapCoords))
-                ]);
+watchId = navigator.geolocation.watchPosition(function(pos) {
+    var coords = [pos.coords.longitude, pos.coords.latitude];
+    var accuracy = ol.geom.Polygon.circular(coords, pos.coords.accuracy);
+    var mapCoords = ol.proj.fromLonLat(coords);
 
-                // Snap view to user on the first update
-                map.getView().animate({center: mapCoords, zoom: 17, duration: 500});
+    positionSource.clear();
+    positionSource.addFeatures([
+        // Accuracy Circle
+        new ol.Feature(accuracy.transform('EPSG:4326', map.getView().getProjection())),
+        // User Dot
+        new ol.Feature(new ol.geom.Point(mapCoords))
+    ]);
 
-            }, function(err) {
-                console.warn('ERROR(' + err.code + '): ' + err.message);
-            }, {
-                enableHighAccuracy: true
-            });
+    // Only force the view the FIRST time a position is found
+    if (!firstPositionSet) {
+        map.getView().animate({
+            center: mapCoords, 
+            zoom: 18, 
+            duration: 1000
+        });
+        firstPositionSet = true;
+    }
+
+}, function(err) {
+    console.warn('ERROR(' + err.code + '): ' + err.message);
+}, {
+    enableHighAccuracy: true
+});
         }
     }
 
@@ -1148,4 +1157,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var attributionControl = document.getElementsByClassName('bottom-attribution')[0];
     if (attributionControl) {
         bottomRightContainerDiv.appendChild(attributionControl);
+
     }
