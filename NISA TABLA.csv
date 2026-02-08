@@ -1,4 +1,4 @@
-ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,FALSE,✅ ÉXITO
+ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,TRUE,⏳ ACTUALIZANDO...
 01- LAS PIEDRAS,,,,,,,,,,,
 1-1-1,1,1,"362,86",Vendido,370.000Gs.,48.100.000Gs.,50%,24.050.000Gs.,,1,
 1-1-2,1,2,"362,07",Vendido,480.000Gs.,62.400.000Gs.,50%,31.200.000Gs.,,1,
@@ -9435,8 +9435,8 @@ ID,Manzana,Lote,Superficie,Estado,Cuota,Total,Descuento,Contado,Entrega ,FALSE,�
 88-5-16,5,16,360,Libre,450.000Gs.,58.500.000Gs.,50%,29.250.000Gs.,,88,
 88-6-1,6,1,360,Libre,520.000Gs.,67.600.000Gs.,50%,33.800.000Gs.,,88,
 88-6-2,6,2,360,Libre,480.000Gs.,62.400.000Gs.,50%,31.200.000Gs.,,88,
-88-6-3,6,3,360,Vendido,480.000Gs.,62.400.000Gs.,50%,31.200.000Gs.,,88,
-88-6-4,6,4,360,Vendido,500.000Gs.,65.000.000Gs.,50%,32.500.000Gs.,,88,
+88-6-3,6,3,360,Libre,480.000Gs.,62.400.000Gs.,50%,31.200.000Gs.,,88,
+88-6-4,6,4,360,Libre,500.000Gs.,65.000.000Gs.,50%,32.500.000Gs.,,88,
 88-6-5,6,5,420,Libre,450.000Gs.,58.500.000Gs.,50%,29.250.000Gs.,,88,
 88-6-6,6,6,420,Libre,460.000Gs.,59.800.000Gs.,50%,29.900.000Gs.,,88,
 88-7-1,7,1,360,Libre,480.000Gs.,62.400.000Gs.,50%,31.200.000Gs.,,88,
