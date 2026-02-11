@@ -756,7 +756,16 @@ var json_fraccion_5 = {
         coordinates: [-56.417827874802398, -24.226955660128425],
       },
     },
+    {
+      type: "Feature",
+      properties: { FRACCION: "96" },
+      geometry: {
+        type: "Point",
+        coordinates: [-55.375784048720377, -25.408279913341161],
+      },
+    },
   ],
 };
+
 
 
