@@ -40555,7 +40555,7 @@ var json_Combinado_3 = {
     "Manzana": "13",
     "Lote": "10",
     "Superficie": "360",
-    "Estado": "Libre (R)",
+    "Estado": "Bloqueado",
     "Cuota": "350.000 Gs.",
     "Total": "45.500.000 Gs.",
     "Descuento": "50%",
@@ -49242,11 +49242,11 @@ var json_Combinado_3 = {
     "Manzana": "1",
     "Lote": "9",
     "Superficie": "369,9",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "350.000 Gs.",
+    "Total": "45.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "22.750.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -49287,11 +49287,11 @@ var json_Combinado_3 = {
     "Manzana": "1",
     "Lote": "10",
     "Superficie": "369,9",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "330.000 Gs.",
+    "Total": "42.900.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "21.450.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -72987,11 +72987,11 @@ var json_Combinado_3 = {
     "Manzana": "1",
     "Lote": "10",
     "Superficie": "39791",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "700.000 Gs.",
+    "Total": "91.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "45.500.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -133916,11 +133916,11 @@ var json_Combinado_3 = {
     "Manzana": "2",
     "Lote": "12",
     "Superficie": "360,9",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "800.000 Gs.",
+    "Total": "104.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "52.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -141728,7 +141728,7 @@ var json_Combinado_3 = {
     "Manzana": "2",
     "Lote": "5",
     "Superficie": "",
-    "Estado": "Bloqueo por Deuda",
+    "Estado": "Vendido",
     "Cuota": "550.000 Gs.",
     "Total": "71.500.000 Gs.",
     "Descuento": "50%",
@@ -145864,7 +145864,7 @@ var json_Combinado_3 = {
     "Manzana": "1",
     "Lote": "9",
     "Superficie": "",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "380.000 Gs.",
     "Total": "49.400.000 Gs.",
     "Descuento": "50%",
@@ -149633,11 +149633,11 @@ var json_Combinado_3 = {
     "Manzana": "5",
     "Lote": "4",
     "Superficie": "0",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "400.000 Gs.",
+    "Total": "52.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "26.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -155310,11 +155310,11 @@ var json_Combinado_3 = {
     "Manzana": "16",
     "Lote": "15",
     "Superficie": "1",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "400.000 Gs.",
+    "Total": "52.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "26.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -182054,11 +182054,11 @@ var json_Combinado_3 = {
     "Manzana": "2",
     "Lote": "21",
     "Superficie": "360",
-    "Estado": "Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Vendido",
+    "Cuota": "450.000 Gs.",
+    "Total": "58.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "29.250.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -183004,11 +183004,11 @@ var json_Combinado_3 = {
     "Manzana": "4",
     "Lote": "1",
     "Superficie": "363,09",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "450.000 Gs.",
+    "Total": "58.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "29.250.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -190408,7 +190408,7 @@ var json_Combinado_3 = {
     "Manzana": "15",
     "Lote": "1",
     "Superficie": "360,03",
-    "Estado": "Vendido",
+    "Estado": "Cancelado",
     "Cuota": "350.000 Gs.",
     "Total": "45.500.000 Gs.",
     "Descuento": "50%",
@@ -190449,7 +190449,7 @@ var json_Combinado_3 = {
     "Manzana": "15",
     "Lote": "2",
     "Superficie": "360,26",
-    "Estado": "Vendido",
+    "Estado": "Cancelado",
     "Cuota": "300.000 Gs.",
     "Total": "39.000.000 Gs.",
     "Descuento": "50%",
@@ -193522,11 +193522,11 @@ var json_Combinado_3 = {
     "Manzana": "21",
     "Lote": "12",
     "Superficie": "374,74",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "450.000 Gs.",
+    "Total": "58.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "29.250.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -193563,11 +193563,11 @@ var json_Combinado_3 = {
     "Manzana": "21",
     "Lote": "13",
     "Superficie": "375,04",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "500.000 Gs.",
+    "Total": "65.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "32.500.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -194230,11 +194230,11 @@ var json_Combinado_3 = {
     "Manzana": "23",
     "Lote": "6",
     "Superficie": "400,79",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "400.000 Gs.",
+    "Total": "52.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "26.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -195946,7 +195946,7 @@ var json_Combinado_3 = {
     "Manzana": "27",
     "Lote": "5",
     "Superficie": "384",
-    "Estado": "Libre (R)",
+    "Estado": "Vendido",
     "Cuota": "450.000 Gs.",
     "Total": "58.500.000 Gs.",
     "Descuento": "50%",
@@ -195991,7 +195991,7 @@ var json_Combinado_3 = {
     "Manzana": "27",
     "Lote": "6",
     "Superficie": "400,79",
-    "Estado": "Libre (R)",
+    "Estado": "Vendido",
     "Cuota": "450.000 Gs.",
     "Total": "58.500.000 Gs.",
     "Descuento": "50%",
@@ -196032,7 +196032,7 @@ var json_Combinado_3 = {
     "Manzana": "27",
     "Lote": "7",
     "Superficie": "401,1",
-    "Estado": "Libre (R)",
+    "Estado": "Vendido",
     "Cuota": "450.000 Gs.",
     "Total": "58.500.000 Gs.",
     "Descuento": "50%",
@@ -196073,7 +196073,7 @@ var json_Combinado_3 = {
     "Manzana": "27",
     "Lote": "8",
     "Superficie": "400,78",
-    "Estado": "Libre (R)",
+    "Estado": "Vendido",
     "Cuota": "450.000 Gs.",
     "Total": "58.500.000 Gs.",
     "Descuento": "50%",
@@ -196114,7 +196114,7 @@ var json_Combinado_3 = {
     "Manzana": "27",
     "Lote": "9",
     "Superficie": "401,2",
-    "Estado": "Libre (R)",
+    "Estado": "Vendido",
     "Cuota": "400.000 Gs.",
     "Total": "52.000.000 Gs.",
     "Descuento": "50%",
@@ -212400,11 +212400,11 @@ var json_Combinado_3 = {
     "Manzana": "9",
     "Lote": "9",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "500.000 Gs.",
+    "Total": "65.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "32.500.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -214211,11 +214211,11 @@ var json_Combinado_3 = {
     "Manzana": "13",
     "Lote": "8",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "500.000 Gs.",
+    "Total": "65.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "32.500.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -219397,11 +219397,11 @@ var json_Combinado_3 = {
     "Manzana": "1",
     "Lote": "4",
     "Superficie": "360,65",
-    "Estado": "Recuperado Libre",
-    "Cuota": "850.000 Gs.",
-    "Total": "110.500.000 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "900.000 Gs.",
+    "Total": "117.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "55.250.000 Gs."
+    "Contado": "58.500.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -231180,11 +231180,11 @@ var json_Combinado_3 = {
     "Manzana": "6",
     "Lote": "12",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "550.000 Gs.",
+    "Total": "71.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "35.750.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -241458,11 +241458,11 @@ var json_Combinado_3 = {
     "Manzana": "4",
     "Lote": "4",
     "Superficie": "360,07",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "500.000 Gs.",
+    "Total": "65.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "32.500.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -245097,11 +245097,11 @@ var json_Combinado_3 = {
     "Manzana": "8",
     "Lote": "15",
     "Superficie": "360,07",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "250.000 Gs.",
+    "Total": "32.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "16.250.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -245589,11 +245589,11 @@ var json_Combinado_3 = {
     "Manzana": "9",
     "Lote": "12",
     "Superficie": "360,07",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "250.000 Gs.",
+    "Total": "32.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "16.250.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -249319,11 +249319,11 @@ var json_Combinado_3 = {
     "Manzana": "3",
     "Lote": "14",
     "Superficie": "361,12",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "400.000 Gs.",
+    "Total": "52.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "26.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -249729,11 +249729,11 @@ var json_Combinado_3 = {
     "Manzana": "4",
     "Lote": "9",
     "Superficie": "361,12",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "350.000 Gs.",
+    "Total": "45.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "22.750.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -250016,11 +250016,11 @@ var json_Combinado_3 = {
     "Manzana": "4",
     "Lote": "16",
     "Superficie": "361,12",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "350.000 Gs.",
+    "Total": "45.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "22.750.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -332442,11 +332442,11 @@ var json_Combinado_3 = {
     "Manzana": "1",
     "Lote": "3",
     "Superficie": "401",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Vendido",
+    "Cuota": "550.000 Gs.",
+    "Total": "71.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "35.750.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -336866,10 +336866,10 @@ var json_Combinado_3 = {
     "Lote": "5",
     "Superficie": "360",
     "Estado": "Vendido",
-    "Cuota": "540.000 Gs.",
-    "Total": "70.200.000 Gs.",
+    "Cuota": "2.902.500 Gs.",
+    "Total": "377.325.000 Gs.",
     "Descuento": "50%",
-    "Contado": "35.100.000 Gs."
+    "Contado": "188.662.500 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -340755,7 +340755,7 @@ var json_Combinado_3 = {
     "Manzana": "18",
     "Lote": "5",
     "Superficie": "384",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "360.000 Gs.",
     "Total": "46.800.000 Gs.",
     "Descuento": "50%",
@@ -341288,7 +341288,7 @@ var json_Combinado_3 = {
     "Manzana": "20",
     "Lote": "4",
     "Superficie": "430,02",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "330.000 Gs.",
     "Total": "42.900.000 Gs.",
     "Descuento": "50%",
@@ -341329,7 +341329,7 @@ var json_Combinado_3 = {
     "Manzana": "20",
     "Lote": "5",
     "Superficie": "430,02",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "340.000 Gs.",
     "Total": "44.200.000 Gs.",
     "Descuento": "50%",
@@ -355646,7 +355646,7 @@ var json_Combinado_3 = {
     "Manzana": "3",
     "Lote": "11",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
+    "Estado": "Libre (R)",
     "Cuota": "600.000 Gs.",
     "Total": "78.000.000 Gs.",
     "Descuento": "20%",
@@ -358333,7 +358333,7 @@ var json_Combinado_3 = {
     "Manzana": "6",
     "Lote": "13",
     "Superficie": "445,44",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "700.000 Gs.",
     "Total": "91.000.000 Gs.",
     "Descuento": "20%",
@@ -358374,7 +358374,7 @@ var json_Combinado_3 = {
     "Manzana": "6",
     "Lote": "14",
     "Superficie": "445,44",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "700.000 Gs.",
     "Total": "91.000.000 Gs.",
     "Descuento": "20%",
@@ -358415,7 +358415,7 @@ var json_Combinado_3 = {
     "Manzana": "6",
     "Lote": "15",
     "Superficie": "445,44",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "700.000 Gs.",
     "Total": "91.000.000 Gs.",
     "Descuento": "20%",
@@ -358579,11 +358579,11 @@ var json_Combinado_3 = {
     "Manzana": "6",
     "Lote": "19",
     "Superficie": "445,34",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "800.000 Gs.",
+    "Total": "104.000.000 Gs.",
     "Descuento": "20%",
-    "Contado": "0 Gs."
+    "Contado": "83.200.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -358665,7 +358665,7 @@ var json_Combinado_3 = {
     "Manzana": "6",
     "Lote": "21",
     "Superficie": "457,31",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "760.000 Gs.",
     "Total": "98.800.000 Gs.",
     "Descuento": "20%",
@@ -358706,7 +358706,7 @@ var json_Combinado_3 = {
     "Manzana": "6",
     "Lote": "22",
     "Superficie": "460,73",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "760.000 Gs.",
     "Total": "98.800.000 Gs.",
     "Descuento": "20%",
@@ -359755,11 +359755,11 @@ var json_Combinado_3 = {
     "Manzana": "7",
     "Lote": "19",
     "Superficie": "379,7",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "600.000 Gs.",
+    "Total": "78.000.000 Gs.",
     "Descuento": "20%",
-    "Contado": "0 Gs."
+    "Contado": "62.400.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -359972,7 +359972,7 @@ var json_Combinado_3 = {
     "Manzana": "7",
     "Lote": "24",
     "Superficie": "415,09",
-    "Estado": "Bloqueado",
+    "Estado": "Vendido",
     "Cuota": "760.000 Gs.",
     "Total": "98.800.000 Gs.",
     "Descuento": "20%",
@@ -360660,11 +360660,11 @@ var json_Combinado_3 = {
     "Manzana": "8",
     "Lote": "8",
     "Superficie": "409,14",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "600.000 Gs.",
+    "Total": "78.000.000 Gs.",
     "Descuento": "20%",
-    "Contado": "0 Gs."
+    "Contado": "62.400.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -361278,11 +361278,11 @@ var json_Combinado_3 = {
     "Manzana": "10",
     "Lote": "4",
     "Superficie": "382,5",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "850.000 Gs.",
+    "Total": "110.500.000 Gs.",
     "Descuento": "20%",
-    "Contado": "0 Gs."
+    "Contado": "88.400.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -366195,7 +366195,7 @@ var json_Combinado_3 = {
     "Manzana": "15",
     "Lote": "13",
     "Superficie": "360",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "600.000 Gs.",
     "Total": "78.000.000 Gs.",
     "Descuento": "20%",
@@ -368374,11 +368374,11 @@ var json_Combinado_3 = {
     "Manzana": "17",
     "Lote": "20",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "700.000 Gs.",
+    "Total": "91.000.000 Gs.",
     "Descuento": "20%",
-    "Contado": "0 Gs."
+    "Contado": "72.800.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -374334,11 +374334,11 @@ var json_Combinado_3 = {
     "Manzana": "9",
     "Lote": "15",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "280.000 Gs.",
+    "Total": "36.400.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "18.200.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -374625,11 +374625,11 @@ var json_Combinado_3 = {
     "Manzana": "9",
     "Lote": "22",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "280.000 Gs.",
+    "Total": "36.400.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "18.200.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -376552,11 +376552,11 @@ var json_Combinado_3 = {
     "Manzana": "12",
     "Lote": "3",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "300.000 Gs.",
+    "Total": "39.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "19.500.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -376634,11 +376634,11 @@ var json_Combinado_3 = {
     "Manzana": "12",
     "Lote": "5",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "300.000 Gs.",
+    "Total": "39.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "19.500.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -380251,11 +380251,11 @@ var json_Combinado_3 = {
     "Manzana": "16",
     "Lote": "6",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Libre (R)",
+    "Cuota": "280.000 Gs.",
+    "Total": "36.400.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "18.200.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -419865,11 +419865,11 @@ var json_Combinado_3 = {
     "Manzana": "1",
     "Lote": "3",
     "Superficie": "439.4",
-    "Estado": "No disponible para la venta",
-    "Cuota": "850.000 Gs.",
-    "Total": "110.500.000 Gs.",
+    "Estado": "Vendido",
+    "Cuota": "700.000 Gs.",
+    "Total": "91.000.000 Gs.",
     "Descuento": "0%",
-    "Contado": "110.500.000 Gs."
+    "Contado": "91.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -434930,7 +434930,7 @@ var json_Combinado_3 = {
     "Manzana": "K",
     "Lote": "9",
     "Superficie": "391,29",
-    "Estado": "Libre (R)",
+    "Estado": "Vendido",
     "Cuota": "550.000 Gs.",
     "Total": "71.500.000 Gs.",
     "Descuento": "40%",
@@ -442466,7 +442466,7 @@ var json_Combinado_3 = {
     "Manzana": "19",
     "Lote": "1",
     "Superficie": "",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "280.000 Gs.",
     "Total": "36.400.000 Gs.",
     "Descuento": "0%",
@@ -442511,7 +442511,7 @@ var json_Combinado_3 = {
     "Manzana": "19",
     "Lote": "2",
     "Superficie": "",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "260.000 Gs.",
     "Total": "33.800.000 Gs.",
     "Descuento": "0%",
@@ -445361,11 +445361,11 @@ var json_Combinado_3 = {
     "Manzana": "3",
     "Lote": "5",
     "Superficie": "",
-    "Estado": "Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Vendido",
+    "Cuota": "1.200.000 Gs.",
+    "Total": "156.000.000 Gs.",
     "Descuento": "0%",
-    "Contado": "0 Gs.",
+    "Contado": "156.000.000 Gs.",
     "Entrega": null,
     "ID 3": null
    },
@@ -445451,11 +445451,11 @@ var json_Combinado_3 = {
     "Manzana": "4",
     "Lote": "1",
     "Superficie": "",
-    "Estado": "Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Vendido",
+    "Cuota": "2.785.000 Gs.",
+    "Total": "362.050.000 Gs.",
     "Descuento": "0%",
-    "Contado": "0 Gs.",
+    "Contado": "362.050.000 Gs.",
     "Entrega": null,
     "ID 3": null
    },
@@ -445496,11 +445496,11 @@ var json_Combinado_3 = {
     "Manzana": "4",
     "Lote": "2",
     "Superficie": "",
-    "Estado": "Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Vendido",
+    "Cuota": "2.485.000 Gs.",
+    "Total": "323.050.000 Gs.",
     "Descuento": "0%",
-    "Contado": "0 Gs.",
+    "Contado": "323.050.000 Gs.",
     "Entrega": null,
     "ID 3": null
    },
