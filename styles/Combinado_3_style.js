@@ -171,18 +171,8 @@ var style_Combinado_3 = function(feature, resolution){
     var offsetX = 0;
     var offsetY = 0;
     var placement = 'point';
-  if (feature.get("Lote") !== null) {
-        var estado = feature.get("Estado");
-        // Verificamos si el estado incluye la palabra "Libre"
-        if (estado !== null && String(estado).includes("Libre")) {
-            var cuota = feature.get("Cuota");
-            // Si hay un valor de cuota, lo agregamos con un salto de línea (\n)
-            var cuotaStr = (cuota !== null && cuota !== undefined) ? "\n" + String(cuota) : "";
-            labelText = String(feature.get("Lote")) + cuotaStr;
-        } else {
-            // Si no está libre, solo mostramos el número de Lote
-            labelText = String(feature.get("Lote"));
-        }
+ if (feature.get("Lote") !== null) {
+        labelText = String(feature.get("Lote"));
     }
     
     var style = categories_Combinado_3(feature, value, size, resolution, labelText,
