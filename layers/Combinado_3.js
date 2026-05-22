@@ -840,10 +840,10 @@ var json_Combinado_3 = {
     "Lote": "7",
     "Superficie": "",
     "Estado": "Recuperado Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Cuota": "600.000 Gs.",
+    "Total": "78.000.000 Gs.",
     "Descuento": "0%",
-    "Contado": "0 Gs."
+    "Contado": "78.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -66178,11 +66178,11 @@ var json_Combinado_3 = {
     "Manzana": "2",
     "Lote": "9",
     "Superficie": "",
-    "Estado": "Vendido",
-    "Cuota": "550.000 Gs.",
-    "Total": "71.500.000 Gs.",
+    "Estado": "Reserva de Propietario",
+    "Cuota": "0 Gs.",
+    "Total": "0 Gs.",
     "Descuento": "0%",
-    "Contado": "71.500.000 Gs."
+    "Contado": "0 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -66223,11 +66223,11 @@ var json_Combinado_3 = {
     "Manzana": "2",
     "Lote": "10",
     "Superficie": "363,34",
-    "Estado": "Vendido",
-    "Cuota": "550.000 Gs.",
-    "Total": "71.500.000 Gs.",
+    "Estado": "Reserva de Propietario",
+    "Cuota": "0 Gs.",
+    "Total": "0 Gs.",
     "Descuento": "40%",
-    "Contado": "42.900.000 Gs."
+    "Contado": "0 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -315969,7 +315969,7 @@ var json_Combinado_3 = {
     "Manzana": "1",
     "Lote": "16",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
+    "Estado": "Bloqueo por falta firma de contrato",
     "Cuota": "0 Gs.",
     "Total": "0 Gs.",
     "Descuento": "50%",
@@ -356802,7 +356802,7 @@ var json_Combinado_3 = {
     "Manzana": "5",
     "Lote": "8",
     "Superficie": "361,61",
-    "Estado": "Recuperado Libre",
+    "Estado": "Vendido",
     "Cuota": "650.000 Gs.",
     "Total": "84.500.000 Gs.",
     "Descuento": "20%",
@@ -446100,7 +446100,7 @@ var json_Combinado_3 = {
     "Manzana": "2",
     "Lote": "5",
     "Superficie": "",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "800.000 Gs.",
     "Total": "104.000.000 Gs.",
     "Descuento": "50%",
@@ -450248,7 +450248,7 @@ var json_Combinado_3 = {
     "Manzana": "14",
     "Lote": "1",
     "Superficie": "420,00",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "330.000 Gs.",
     "Total": "42.900.000 Gs.",
     "Descuento": "50%",
