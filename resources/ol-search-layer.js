@@ -85,7 +85,26 @@ class SearchLayer extends ol.control.Control {
     input.setAttribute('placeholder', 'Search ...');
     input.setAttribute('type', 'text');
     form.appendChild(input);
+// --- INICIO DEL PARCHE PARA TECLADOS PREDICTIVOS ---
+    input.addEventListener('input', function() {
+        // Esperamos 150 milisegundos para que el texto predictivo se asiente
+        setTimeout(function() {
+            // Simulamos que se PRESIONA la tecla de borrar
+            var evtDown = document.createEvent('Event');
+            evtDown.initEvent('keydown', true, true);
+            evtDown.keyCode = 8;
+            
+            // Simulamos que se SUELTA la tecla de borrar
+            var evtUp = document.createEvent('Event');
+            evtUp.initEvent('keyup', true, true);
+            evtUp.keyCode = 8; 
 
+            // Despachamos ambos eventos para engañar a la librería
+            input.dispatchEvent(evtDown);
+            input.dispatchEvent(evtUp);
+        }, 150); 
+    });
+    // --- FIN DEL PARCHE ---
     // Build control element
     const element = document.createElement('div');
     element.className = 'search-layer ol-unselectable ol-control';
