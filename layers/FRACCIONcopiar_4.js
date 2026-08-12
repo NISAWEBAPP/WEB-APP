@@ -388,7 +388,7 @@ var json_FRACCIONcopiar_4 = {
       type: "Feature",
       properties: {
         FRACCION: "14",
-        "FRACCIONES_Código - Nombre de Fracción": "14 - AIRES DE SANTANI I",
+        "FRACCIONES_Código - Nombre de Fracción": "15 - AIRES DE SANTANI Ii",
       },
       geometry: {
         type: "Point",
@@ -399,7 +399,7 @@ var json_FRACCIONcopiar_4 = {
       type: "Feature",
       properties: {
         FRACCION: "15",
-        "FRACCIONES_Código - Nombre de Fracción": "15 - AIRES DE SANTANI II",
+        "FRACCIONES_Código - Nombre de Fracción": "14 - AIRES DE SANTANI I",
       },
       geometry: {
         type: "Point",
