@@ -1275,7 +1275,7 @@ var json_FRACCION_0 = {
     {
       type: "Feature",
       properties: {
-        "FRACCIONES_Código - Nombre de Fracción": "14 - AIRES DE SANTANI I",
+        "FRACCIONES_Código - Nombre de Fracción": "15 - AIRES DE SANTANI II",
       },
       geometry: {
         type: "MultiPolygon",
@@ -1311,7 +1311,7 @@ var json_FRACCION_0 = {
     {
       type: "Feature",
       properties: {
-        "FRACCIONES_Código - Nombre de Fracción": "15 - AIRES DE SANTANI II",
+        "FRACCIONES_Código - Nombre de Fracción": "14 - AIRES DE SANTANI I",
       },
       geometry: {
         type: "MultiPolygon",
