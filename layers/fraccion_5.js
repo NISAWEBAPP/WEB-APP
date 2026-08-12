@@ -405,7 +405,7 @@ var json_fraccion_5 = {
     },
     {
       type: "Feature",
-      properties: { FRACCION: "27" },
+      properties: { FRACCION: "28" },
       geometry: {
         type: "Point",
         coordinates: [-54.812844619464684, -25.481262139976238],
@@ -413,7 +413,7 @@ var json_fraccion_5 = {
     },
     {
       type: "Feature",
-      properties: { FRACCION: "28" },
+      properties: { FRACCION: "26" },
       geometry: {
         type: "Point",
         coordinates: [-54.810135411373381, -25.485095835994954],
@@ -421,7 +421,7 @@ var json_fraccion_5 = {
     },
     {
       type: "Feature",
-      properties: { FRACCION: "26" },
+      properties: { FRACCION: "27" },
       geometry: {
         type: "Point",
         coordinates: [-54.810135411373381, -25.481087878161439],
