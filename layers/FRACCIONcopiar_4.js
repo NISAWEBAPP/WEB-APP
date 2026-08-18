@@ -554,8 +554,8 @@ var json_FRACCIONcopiar_4 = {
     {
       type: "Feature",
       properties: {
-        FRACCION: "27",
-        "FRACCIONES_Código - Nombre de Fracción": "27 - DOÑA ELIDA II",
+        FRACCION: "28",
+        "FRACCIONES_Código - Nombre de Fracción": "28 - DOÑA ELIDA III",
       },
       geometry: {
         type: "Point",
@@ -565,8 +565,8 @@ var json_FRACCIONcopiar_4 = {
     {
       type: "Feature",
       properties: {
-        FRACCION: "28",
-        "FRACCIONES_Código - Nombre de Fracción": "28 - DOÑA ELIDA III",
+        FRACCION: "26",
+        "FRACCIONES_Código - Nombre de Fracción": "26 - DOÑA ELIDA I",
       },
       geometry: {
         type: "Point",
@@ -576,8 +576,8 @@ var json_FRACCIONcopiar_4 = {
     {
       type: "Feature",
       properties: {
-        FRACCION: "26",
-        "FRACCIONES_Código - Nombre de Fracción": "26 - DOÑA ELIDA I",
+        FRACCION: "27",
+        "FRACCIONES_Código - Nombre de Fracción": "27 - DOÑA ELIDA II",
       },
       geometry: {
         type: "Point",
