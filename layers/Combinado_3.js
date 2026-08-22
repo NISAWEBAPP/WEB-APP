@@ -269145,7 +269145,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-A-1",
+    "ID": "28-1-1",
     "Manzana": "1",
     "Lote": "1",
     "Superficie": "360",
@@ -269190,7 +269190,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-A-2",
+    "ID": "28-1-2",
     "Manzana": "1",
     "Lote": "2",
     "Superficie": "360",
@@ -269231,7 +269231,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-A-3",
+    "ID": "28-1-3",
     "Manzana": "1",
     "Lote": "3",
     "Superficie": "360",
@@ -269272,7 +269272,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-A-4",
+    "ID": "28-1-4",
     "Manzana": "1",
     "Lote": "4",
     "Superficie": "360",
@@ -269313,7 +269313,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-A-5",
+    "ID": "28-1-5",
     "Manzana": "1",
     "Lote": "5",
     "Superficie": "573,34",
@@ -269354,7 +269354,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-A-6",
+    "ID": "28-1-6",
     "Manzana": "1",
     "Lote": "6",
     "Superficie": "573,34",
@@ -269395,7 +269395,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-A-7",
+    "ID": "28-1-7",
     "Manzana": "1",
     "Lote": "7",
     "Superficie": "573,34",
@@ -269436,7 +269436,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-A-8",
+    "ID": "28-1-8",
     "Manzana": "1",
     "Lote": "8",
     "Superficie": "360",
@@ -269477,7 +269477,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-A-9",
+    "ID": "28-1-9",
     "Manzana": "1",
     "Lote": "9",
     "Superficie": "360",
@@ -269518,7 +269518,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-A-10",
+    "ID": "28-1-10",
     "Manzana": "1",
     "Lote": "10",
     "Superficie": "360",
@@ -269559,7 +269559,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-1",
+    "ID": "28-2-1",
     "Manzana": "2",
     "Lote": "1",
     "Superficie": "360",
@@ -269600,7 +269600,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-2",
+    "ID": "28-2-2",
     "Manzana": "2",
     "Lote": "2",
     "Superficie": "480",
@@ -269641,7 +269641,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-3",
+    "ID": "28-2-3",
     "Manzana": "2",
     "Lote": "3",
     "Superficie": "480",
@@ -269682,7 +269682,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-4",
+    "ID": "28-2-4",
     "Manzana": "2",
     "Lote": "4",
     "Superficie": "360",
@@ -269723,7 +269723,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-5",
+    "ID": "28-2-5",
     "Manzana": "2",
     "Lote": "5",
     "Superficie": "360",
@@ -269764,7 +269764,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-6",
+    "ID": "28-2-6",
     "Manzana": "2",
     "Lote": "6",
     "Superficie": "360",
@@ -269805,7 +269805,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-7",
+    "ID": "28-2-7",
     "Manzana": "2",
     "Lote": "7",
     "Superficie": "360",
@@ -269846,7 +269846,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-8",
+    "ID": "28-2-8",
     "Manzana": "2",
     "Lote": "8",
     "Superficie": "360",
@@ -269887,7 +269887,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-9",
+    "ID": "28-2-9",
     "Manzana": "2",
     "Lote": "9",
     "Superficie": "480",
@@ -269928,7 +269928,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-10",
+    "ID": "28-2-10",
     "Manzana": "2",
     "Lote": "10",
     "Superficie": "480",
@@ -269969,7 +269969,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-11",
+    "ID": "28-2-11",
     "Manzana": "2",
     "Lote": "11",
     "Superficie": "360",
@@ -270010,7 +270010,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-12",
+    "ID": "28-2-12",
     "Manzana": "2",
     "Lote": "12",
     "Superficie": "360",
@@ -270051,7 +270051,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-13",
+    "ID": "28-2-13",
     "Manzana": "2",
     "Lote": "13",
     "Superficie": "360",
@@ -270092,7 +270092,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-B-14",
+    "ID": "28-2-14",
     "Manzana": "2",
     "Lote": "14",
     "Superficie": "360",
@@ -270133,7 +270133,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-1",
+    "ID": "28-3-1",
     "Manzana": "3",
     "Lote": "1",
     "Superficie": "360",
@@ -270174,7 +270174,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-2",
+    "ID": "28-3-2",
     "Manzana": "3",
     "Lote": "2",
     "Superficie": "480",
@@ -270215,7 +270215,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-3",
+    "ID": "28-3-3",
     "Manzana": "3",
     "Lote": "3",
     "Superficie": "480",
@@ -270256,7 +270256,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-4",
+    "ID": "28-3-4",
     "Manzana": "3",
     "Lote": "4",
     "Superficie": "360",
@@ -270297,7 +270297,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-5",
+    "ID": "28-3-5",
     "Manzana": "3",
     "Lote": "5",
     "Superficie": "360",
@@ -270338,7 +270338,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-6",
+    "ID": "28-3-6",
     "Manzana": "3",
     "Lote": "6",
     "Superficie": "360",
@@ -270379,7 +270379,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-7",
+    "ID": "28-3-7",
     "Manzana": "3",
     "Lote": "7",
     "Superficie": "360",
@@ -270420,7 +270420,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-8",
+    "ID": "28-3-8",
     "Manzana": "3",
     "Lote": "8",
     "Superficie": "360",
@@ -270461,7 +270461,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-9",
+    "ID": "28-3-9",
     "Manzana": "3",
     "Lote": "9",
     "Superficie": "480",
@@ -270502,7 +270502,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-10",
+    "ID": "28-3-10",
     "Manzana": "3",
     "Lote": "10",
     "Superficie": "480",
@@ -270543,7 +270543,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-11",
+    "ID": "28-3-11",
     "Manzana": "3",
     "Lote": "11",
     "Superficie": "360",
@@ -270584,7 +270584,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-12",
+    "ID": "28-3-12",
     "Manzana": "3",
     "Lote": "12",
     "Superficie": "360",
@@ -270625,7 +270625,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-13",
+    "ID": "28-3-13",
     "Manzana": "3",
     "Lote": "13",
     "Superficie": "360",
@@ -270666,7 +270666,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "28-C-14",
+    "ID": "28-3-14",
     "Manzana": "3",
     "Lote": "14",
     "Superficie": "360",
@@ -272351,7 +272351,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-1",
+    "ID": "26-A-1",
     "Manzana": "A",
     "Lote": "1",
     "Superficie": "",
@@ -272392,7 +272392,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-2",
+    "ID": "26-A-2",
     "Manzana": "A",
     "Lote": "2",
     "Superficie": "",
@@ -272433,7 +272433,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-3",
+    "ID": "26-A-3",
     "Manzana": "A",
     "Lote": "3",
     "Superficie": "",
@@ -272474,7 +272474,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-4",
+    "ID": "26-A-4",
     "Manzana": "A",
     "Lote": "4",
     "Superficie": "",
@@ -272515,7 +272515,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-5",
+    "ID": "26-A-5",
     "Manzana": "A",
     "Lote": "5",
     "Superficie": "",
@@ -272556,7 +272556,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-6",
+    "ID": "26-A-6",
     "Manzana": "A",
     "Lote": "6",
     "Superficie": "",
@@ -272597,7 +272597,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-7",
+    "ID": "26-A-7",
     "Manzana": "A",
     "Lote": "7",
     "Superficie": "",
@@ -272638,7 +272638,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-8",
+    "ID": "26-A-8",
     "Manzana": "A",
     "Lote": "8",
     "Superficie": "",
@@ -272679,7 +272679,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-9",
+    "ID": "26-A-9",
     "Manzana": "A",
     "Lote": "9",
     "Superficie": "",
@@ -272720,7 +272720,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-10",
+    "ID": "26-A-10",
     "Manzana": "A",
     "Lote": "10",
     "Superficie": "",
@@ -272761,7 +272761,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-11",
+    "ID": "26-A-11",
     "Manzana": null,
     "Lote": null,
     "Superficie": null,
@@ -272805,7 +272805,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-12",
+    "ID": "26-A-12",
     "Manzana": null,
     "Lote": null,
     "Superficie": null,
@@ -272849,7 +272849,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-13",
+    "ID": "26-A-13",
     "Manzana": null,
     "Lote": null,
     "Superficie": null,
@@ -272893,7 +272893,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-1-14",
+    "ID": "26-A-14",
     "Manzana": null,
     "Lote": null,
     "Superficie": null,
@@ -272937,7 +272937,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-1",
+    "ID": "26-B-1",
     "Manzana": "B",
     "Lote": "1",
     "Superficie": "",
@@ -272978,7 +272978,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-2",
+    "ID": "26-B-2",
     "Manzana": "B",
     "Lote": "2",
     "Superficie": "",
@@ -273019,7 +273019,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-3",
+    "ID": "26-B-3",
     "Manzana": "B",
     "Lote": "3",
     "Superficie": "",
@@ -273060,7 +273060,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-4",
+    "ID": "26-B-4",
     "Manzana": "B",
     "Lote": "4",
     "Superficie": "",
@@ -273101,7 +273101,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-5",
+    "ID": "26-B-5",
     "Manzana": "B",
     "Lote": "5",
     "Superficie": "",
@@ -273142,7 +273142,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-6",
+    "ID": "26-B-6",
     "Manzana": "B",
     "Lote": "6",
     "Superficie": "",
@@ -273183,7 +273183,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-7",
+    "ID": "26-B-7",
     "Manzana": "B",
     "Lote": "7",
     "Superficie": "",
@@ -273224,7 +273224,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-8",
+    "ID": "26-B-8",
     "Manzana": "B",
     "Lote": "8",
     "Superficie": "",
@@ -273265,7 +273265,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-9",
+    "ID": "26-B-9",
     "Manzana": "B",
     "Lote": "9",
     "Superficie": "",
@@ -273306,7 +273306,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-10",
+    "ID": "26-B-10",
     "Manzana": "B",
     "Lote": "10",
     "Superficie": "",
@@ -273347,7 +273347,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-11",
+    "ID": "26-B-11",
     "Manzana": "B",
     "Lote": "11",
     "Superficie": "",
@@ -273388,7 +273388,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-12",
+    "ID": "26-B-12",
     "Manzana": "B",
     "Lote": "12",
     "Superficie": "",
@@ -273429,7 +273429,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-13",
+    "ID": "26-B-13",
     "Manzana": "B",
     "Lote": "13",
     "Superficie": "",
@@ -273470,7 +273470,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-2-14",
+    "ID": "26-B-14",
     "Manzana": "B",
     "Lote": "14",
     "Superficie": "",
@@ -273511,7 +273511,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-1",
+    "ID": "26-C-1",
     "Manzana": "C",
     "Lote": "1",
     "Superficie": "",
@@ -273552,7 +273552,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-2",
+    "ID": "26-C-2",
     "Manzana": "C",
     "Lote": "2",
     "Superficie": "",
@@ -273593,7 +273593,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-3",
+    "ID": "26-C-3",
     "Manzana": "C",
     "Lote": "3",
     "Superficie": "",
@@ -273634,7 +273634,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-4",
+    "ID": "26-C-4",
     "Manzana": "C",
     "Lote": "4",
     "Superficie": "",
@@ -273675,7 +273675,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-5",
+    "ID": "26-C-5",
     "Manzana": "C",
     "Lote": "5",
     "Superficie": "",
@@ -273716,7 +273716,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-6",
+    "ID": "26-C-6",
     "Manzana": "C",
     "Lote": "6",
     "Superficie": "",
@@ -273757,7 +273757,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-7",
+    "ID": "26-C-7",
     "Manzana": "C",
     "Lote": "7",
     "Superficie": "",
@@ -273798,7 +273798,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-8",
+    "ID": "26-C-8",
     "Manzana": "C",
     "Lote": "8",
     "Superficie": "",
@@ -273839,7 +273839,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-9",
+    "ID": "26-C-9",
     "Manzana": "C",
     "Lote": "9",
     "Superficie": "",
@@ -273880,7 +273880,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-10",
+    "ID": "26-C-10",
     "Manzana": "C",
     "Lote": "10",
     "Superficie": "",
@@ -273921,7 +273921,7 @@ var json_Combinado_3 = {
   {
    "type": "Feature",
    "properties": {
-    "ID": "26-3-11",
+    "ID": "26-C-11",
     "Manzana": "C",
     "Lote": "11",
     "Superficie": "",
@@ -363976,7 +363976,7 @@ var json_Combinado_3 = {
     "Manzana": "10",
     "Lote": "28",
     "Superficie": "382,5",
-    "Estado": "Recuperado Libre",
+    "Estado": "Libre (R)",
     "Cuota": "720.000 Gs.",
     "Total": "93.600.000 Gs.",
     "Descuento": "20%",
@@ -367372,7 +367372,7 @@ var json_Combinado_3 = {
     "Manzana": "15",
     "Lote": "13",
     "Superficie": "360",
-    "Estado": "Recuperado Libre",
+    "Estado": "Libre (R)",
     "Cuota": "600.000 Gs.",
     "Total": "78.000.000 Gs.",
     "Descuento": "20%",
@@ -456699,7 +456699,7 @@ var json_Combinado_3 = {
     "Manzana": "3",
     "Lote": "10",
     "Superficie": "455,9000",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "900.000 Gs.",
     "Total": "117.000.000 Gs.",
     "Descuento": "50%",
@@ -458773,7 +458773,7 @@ var json_Combinado_3 = {
     "Manzana": "6",
     "Lote": "10",
     "Superficie": "376,8750",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "650.000 Gs.",
     "Total": "84.500.000 Gs.",
     "Descuento": "50%",
