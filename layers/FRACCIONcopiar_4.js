@@ -1106,7 +1106,7 @@ var json_FRACCIONcopiar_4 = {
     },
     {
       type: "Feature",
-      properties: { FRACCIONES_Código - Nombre de Fracción: "104-PARAISO DEL AGUAITY I" },
+      properties: { "FRACCIONES_Código - Nombre de Fracción": "104-PARAISO DEL AGUAITY I" },
       geometry: {
         type: "Point",
         coordinates: [-57.016504783460078, -25.366275647020341],
@@ -1114,7 +1114,7 @@ var json_FRACCIONcopiar_4 = {
     },
     {
       type: "Feature",
-      properties: { FRACCIONES_Código - Nombre de Fracción: "105- PARAISO DEL AGUAITY II" },
+      properties: { "FRACCIONES_Código - Nombre de Fracción": "105- PARAISO DEL AGUAITY II" },
       geometry: {
         type: "Point",
         coordinates: [-57.018973457807007, -25.364874231763103],
@@ -1122,7 +1122,7 @@ var json_FRACCIONcopiar_4 = {
     },
     {
       type: "Feature",
-      properties: { FRACCIONES_Código - Nombre de Fracción: "106- PARAISO DEL AGUAITY III" },
+      properties: { "FRACCIONES_Código - Nombre de Fracción": "106- PARAISO DEL AGUAITY III" },
       geometry: {
         type: "Point",
         coordinates: [-57.020472295803359, -25.366728297054941],
@@ -1130,7 +1130,7 @@ var json_FRACCIONcopiar_4 = {
     },
     {
       type: "Feature",
-      properties: { FRACCIONES_Código - Nombre de Fracción: "107- PARAISO DEL AGAUITY IV" },
+      properties: { "FRACCIONES_Código - Nombre de Fracción": "107- PARAISO DEL AGAUITY IV" },
       geometry: {
         type: "Point",
         coordinates: [-57.019064630439139, -25.368368686574261],
