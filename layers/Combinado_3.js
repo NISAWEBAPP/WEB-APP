@@ -407516,11 +407516,11 @@ var json_Combinado_3 = {
     "Manzana": "3",
     "Lote": "10",
     "Superficie": "499,5",
-    "Estado": "Libre",
-    "Cuota": "4.000.000 Gs.",
-    "Total": "520.000.000 Gs.",
+    "Estado": "Vendido",
+    "Cuota": "3.500.000 Gs.",
+    "Total": "455.000.000 Gs.",
     "Descuento": "40%",
-    "Contado": "312.000.000 Gs."
+    "Contado": "273.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
