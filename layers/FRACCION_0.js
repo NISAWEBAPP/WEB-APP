@@ -3210,7 +3210,7 @@ var json_FRACCION_0 = {
     {
       type: "Feature",
       properties: {
-        "FRACCIONES_Código - Nombre de Fracción": "109- VALENZUELA",
+        "FRACCIONES_Código - Nombre de Fracción": "109- LOMAS DE VALENZUELA",
       },
       geometry: {
         type: "MultiPolygon",
