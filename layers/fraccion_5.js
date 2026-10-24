@@ -1601,7 +1601,7 @@ var json_fraccion_5 = {
     {
       "type": "Feature",
       "properties": {
-        "FRACCION": "110",
+        "FRACCION": "109",
         "DISTRITO": "Valenzuela",
         "DEPARTAMENTO": "Paraguarí"
       },
