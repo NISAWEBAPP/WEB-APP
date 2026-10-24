@@ -1156,8 +1156,8 @@ var json_FRACCIONcopiar_4 = {
     {
       type: "Feature",
       properties: {
-        FRACCION: "110",
-        "FRACCIONES_Código - Nombre de Fracción": "110- VALENZUELA",
+        FRACCION: "109",
+        "FRACCIONES_Código - Nombre de Fracción": "110- LOMAS DE VALENZUELA",
       },
       geometry: {
         type: "Point",
