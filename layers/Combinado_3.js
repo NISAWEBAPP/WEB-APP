@@ -266177,11 +266177,11 @@ var json_Combinado_3 = {
     "Manzana": "7",
     "Lote": "20",
     "Superficie": "432",
-    "Estado": "Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Estado": "Vendido",
+    "Cuota": "1.500.000 Gs.",
+    "Total": "195.000.000 Gs.",
     "Descuento": "20%",
-    "Contado": "0 Gs."
+    "Contado": "156.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
