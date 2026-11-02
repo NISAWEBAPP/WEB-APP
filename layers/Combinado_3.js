@@ -484213,7 +484213,7 @@ var json_Combinado_3 = {
     "Lote": "6",
     "Superficie": "359,34",
     "Lados": "11.95m x 30.00m x 12.02m x 29.96m",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "340.000 Gs.",
     "Total": "44.200.000 Gs.",
     "Descuento": "50%",
