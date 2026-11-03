@@ -473822,7 +473822,7 @@ var json_Combinado_3 = {
     "Manzana": "8",
     "Lote": "10",
     "Superficie": "384,000",
-    "Estado": "Libre",
+    "Estado": "Vendido",
     "Cuota": "390.000 Gs.",
     "Total": "50.700.000 Gs.",
     "Descuento": "50%",
