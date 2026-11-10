@@ -275618,10 +275618,10 @@ var json_Combinado_3 = {
     "Lote": "7",
     "Superficie": "654,45",
     "Estado": "Libre",
-    "Cuota": "400.000 Gs.",
-    "Total": "52.000.000 Gs.",
+    "Cuota": "350.000 Gs.",
+    "Total": "45.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "26.000.000 Gs."
+    "Contado": "22.750.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -275659,10 +275659,10 @@ var json_Combinado_3 = {
     "Lote": "8",
     "Superficie": "447,83",
     "Estado": "Libre (R)",
-    "Cuota": "250.000 Gs.",
-    "Total": "32.500.000 Gs.",
+    "Cuota": "200.000 Gs.",
+    "Total": "26.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "16.250.000 Gs."
+    "Contado": "13.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -275700,10 +275700,10 @@ var json_Combinado_3 = {
     "Lote": "9",
     "Superficie": "407,9",
     "Estado": "Libre",
-    "Cuota": "250.000 Gs.",
-    "Total": "32.500.000 Gs.",
+    "Cuota": "200.000 Gs.",
+    "Total": "26.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "16.250.000 Gs."
+    "Contado": "13.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -275790,10 +275790,10 @@ var json_Combinado_3 = {
     "Lote": "1",
     "Superficie": "360",
     "Estado": "Libre (R)",
-    "Cuota": "280.000 Gs.",
-    "Total": "36.400.000 Gs.",
+    "Cuota": "250.000 Gs.",
+    "Total": "32.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "18.200.000 Gs."
+    "Contado": "16.250.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
