@@ -277351,10 +277351,10 @@ var json_Combinado_3 = {
     "Lote": "9",
     "Superficie": "360",
     "Estado": "Libre",
-    "Cuota": "380.000 Gs.",
-    "Total": "49.400.000 Gs.",
+    "Cuota": "340.000 Gs.",
+    "Total": "44.200.000 Gs.",
     "Descuento": "50%",
-    "Contado": "24.700.000 Gs."
+    "Contado": "22.100.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
