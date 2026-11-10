@@ -278269,10 +278269,10 @@ var json_Combinado_3 = {
     "Lote": "1",
     "Superficie": "372",
     "Estado": "Libre",
-    "Cuota": "700.000 Gs.",
-    "Total": "91.000.000 Gs.",
+    "Cuota": "630.000 Gs.",
+    "Total": "81.900.000 Gs.",
     "Descuento": "50%",
-    "Contado": "45.500.000 Gs."
+    "Contado": "40.950.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -278310,10 +278310,10 @@ var json_Combinado_3 = {
     "Lote": "2",
     "Superficie": "372",
     "Estado": "Libre",
-    "Cuota": "650.000 Gs.",
-    "Total": "84.500.000 Gs.",
+    "Cuota": "580.000 Gs.",
+    "Total": "75.400.000 Gs.",
     "Descuento": "50%",
-    "Contado": "42.250.000 Gs."
+    "Contado": "37.700.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
