@@ -277896,10 +277896,10 @@ var json_Combinado_3 = {
     "Lote": "2",
     "Superficie": "360",
     "Estado": "Libre",
-    "Cuota": "650.000 Gs.",
-    "Total": "84.500.000 Gs.",
+    "Cuota": "580.000 Gs.",
+    "Total": "75.400.000 Gs.",
     "Descuento": "50%",
-    "Contado": "42.250.000 Gs."
+    "Contado": "37.700.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
