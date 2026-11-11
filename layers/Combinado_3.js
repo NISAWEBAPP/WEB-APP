@@ -172109,8 +172109,8 @@ var json_Combinado_3 = {
    "type": "Feature",
    "properties": {
     "ID": "50-5-6",
-    "Manzana": null,
-    "Lote": null,
+    "Manzana": 5,
+    "Lote": 6,
     "Superficie": null,
     "Estado": null,
     "Cuota": null,
@@ -172153,8 +172153,8 @@ var json_Combinado_3 = {
    "type": "Feature",
    "properties": {
     "ID": "50-5-7",
-    "Manzana": null,
-    "Lote": null,
+    "Manzana": 5,
+    "Lote": 7,
     "Superficie": null,
     "Estado": null,
     "Cuota": null,
