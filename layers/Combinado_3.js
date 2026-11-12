@@ -266304,11 +266304,11 @@ var json_Combinado_3 = {
     "Manzana": "8",
     "Lote": "3",
     "Superficie": "456",
-    "Estado": "Vendido",
-    "Cuota": "1.300.000 Gs.",
-    "Total": "169.000.000 Gs.",
+    "Estado": "Recuperado Libre",
+    "Cuota": "0 Gs.",
+    "Total": "0 Gs.",
     "Descuento": "20%",
-    "Contado": "135.200.000 Gs."
+    "Contado": "0 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -319405,10 +319405,10 @@ var json_Combinado_3 = {
     "Lote": "1",
     "Superficie": "360",
     "Estado": "Vendido",
-    "Cuota": "450.000 Gs.",
-    "Total": "58.500.000 Gs.",
+    "Cuota": "250.000 Gs.",
+    "Total": "32.500.000 Gs.",
     "Descuento": "50%",
-    "Contado": "29.250.000 Gs."
+    "Contado": "16.250.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -334915,7 +334915,7 @@ var json_Combinado_3 = {
     "Manzana": "5",
     "Lote": "14",
     "Superficie": "360",
-    "Estado": "Libre (R)",
+    "Estado": "Vendido",
     "Cuota": "350.000 Gs.",
     "Total": "45.500.000 Gs.",
     "Descuento": "50%",
@@ -377540,11 +377540,11 @@ var json_Combinado_3 = {
     "Manzana": "13",
     "Lote": "17",
     "Superficie": "360",
-    "Estado": "Vendido",
-    "Cuota": "250.000 Gs.",
-    "Total": "32.500.000 Gs.",
+    "Estado": "Recuperado Libre",
+    "Cuota": "0 Gs.",
+    "Total": "0 Gs.",
     "Descuento": "50%",
-    "Contado": "16.250.000 Gs."
+    "Contado": "0 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -382104,11 +382104,11 @@ var json_Combinado_3 = {
     "Manzana": "20",
     "Lote": "4",
     "Superficie": "360",
-    "Estado": "Vendido",
-    "Cuota": "220.000 Gs.",
-    "Total": "28.600.000 Gs.",
+    "Estado": "Recuperado Libre",
+    "Cuota": "0 Gs.",
+    "Total": "0 Gs.",
     "Descuento": "50%",
-    "Contado": "14.300.000 Gs."
+    "Contado": "0 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -450401,10 +450401,10 @@ var json_Combinado_3 = {
     "Lote": "5",
     "Superficie": "360,00",
     "Estado": "Vendido",
-    "Cuota": "300.000 Gs.",
-    "Total": "39.000.000 Gs.",
+    "Cuota": "200.000 Gs.",
+    "Total": "26.000.000 Gs.",
     "Descuento": "30%",
-    "Contado": "27.300.000 Gs.",
+    "Contado": "18.200.000 Gs.",
     "Entrega": null,
     "field_11": null
    },
