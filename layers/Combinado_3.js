@@ -2351,11 +2351,11 @@ var json_Combinado_3 = {
     "Manzana": "3",
     "Lote": "15",
     "Superficie": "363,6",
-    "Estado": "Bloqueo Administrativo",
-    "Cuota": "1.200.000 Gs.",
-    "Total": "156.000.000 Gs.",
+    "Estado": "Recuperado Libre",
+    "Cuota": "0 Gs.",
+    "Total": "0 Gs.",
     "Descuento": "50%",
-    "Contado": "78.000.000 Gs."
+    "Contado": "0 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -2392,11 +2392,11 @@ var json_Combinado_3 = {
     "Manzana": "3",
     "Lote": "16",
     "Superficie": "363,42",
-    "Estado": "Bloqueo Administrativo",
-    "Cuota": "500.000 Gs.",
-    "Total": "65.000.000 Gs.",
+    "Estado": "Recuperado Libre",
+    "Cuota": "0 Gs.",
+    "Total": "0 Gs.",
     "Descuento": "50%",
-    "Contado": "32.500.000 Gs."
+    "Contado": "0 Gs."
    },
    "geometry": {
     "type": "Polygon",
