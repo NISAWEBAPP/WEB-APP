@@ -399872,10 +399872,10 @@ var json_Combinado_3 = {
     "Lote": "11",
     "Superficie": "367,68",
     "Estado": "Bloqueo por falta firma de contrato",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Cuota": "1.100.000 Gs.",
+    "Total": "143.000.000 Gs.",
     "Descuento": "0%",
-    "Contado": "0 Gs."
+    "Contado": "143.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
