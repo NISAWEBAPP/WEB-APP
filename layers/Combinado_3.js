@@ -426915,10 +426915,10 @@ var json_Combinado_3 = {
     "Lote": "10",
     "Superficie": "360,97",
     "Estado": "Libre (R)",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Cuota": "1.000.000 Gs.",
+    "Total": "130.000.000 Gs.",
     "Descuento": "40%",
-    "Contado": "0 Gs."
+    "Contado": "78.000.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
