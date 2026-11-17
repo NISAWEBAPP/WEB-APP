@@ -375511,11 +375511,11 @@ var json_Combinado_3 = {
     "Manzana": "11",
     "Lote": "11",
     "Superficie": "360",
-    "Estado": "Vendido",
-    "Cuota": "250.000 Gs.",
-    "Total": "32.500.000 Gs.",
+    "Estado": "Recuperado Libre",
+    "Cuota": "0 Gs.",
+    "Total": "0 Gs.",
     "Descuento": "50%",
-    "Contado": "16.250.000 Gs."
+    "Contado": "0 Gs."
    },
    "geometry": {
     "type": "Polygon",
@@ -378704,11 +378704,11 @@ var json_Combinado_3 = {
     "Manzana": "15",
     "Lote": "3",
     "Superficie": "360",
-    "Estado": "Vendido",
-    "Cuota": "300.000 Gs.",
-    "Total": "39.000.000 Gs.",
+    "Estado": "Recuperado Libre",
+    "Cuota": "0 Gs.",
+    "Total": "0 Gs.",
     "Descuento": "50%",
-    "Contado": "19.500.000 Gs."
+    "Contado": "0 Gs."
    },
    "geometry": {
     "type": "Polygon",
