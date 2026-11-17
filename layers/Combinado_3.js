@@ -399871,7 +399871,7 @@ var json_Combinado_3 = {
     "Manzana": "2",
     "Lote": "11",
     "Superficie": "367,68",
-    "Estado": "Bloqueo por falta firma de contrato",
+    "Estado": "Libre",
     "Cuota": "1.100.000 Gs.",
     "Total": "143.000.000 Gs.",
     "Descuento": "0%",
