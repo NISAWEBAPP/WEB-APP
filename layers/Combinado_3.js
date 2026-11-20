@@ -444400,10 +444400,10 @@ var json_Combinado_3 = {
     "Lote": "3",
     "Superficie": "365.9800",
     "Estado": "Libre",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Cuota": "1.600.000 Gs.",
+    "Total": "208.000.000 Gs.",
     "Descuento": "0%",
-    "Contado": "0 Gs.",
+    "Contado": "208.000.000 Gs.",
     "Entrega": null,
     "ID 3": null
    },
