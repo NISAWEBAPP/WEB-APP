@@ -202400,7 +202400,7 @@ var json_Combinado_3 = {
     "Manzana": "7",
     "Lote": "3",
     "Superficie": "361",
-    "Estado": "Reserva de Propietario",
+    "Estado": "Libre",
     "Cuota": "390.000 Gs.",
     "Total": "50.700.000 Gs.",
     "Descuento": "50%",
