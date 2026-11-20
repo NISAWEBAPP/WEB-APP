@@ -445120,10 +445120,10 @@ var json_Combinado_3 = {
     "Lote": "1",
     "Superficie": "419,93",
     "Estado": "Reserva de Propietario",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Cuota": "2.985.000 Gs.",
+    "Total": "388.050.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs.",
+    "Contado": "194.025.000 Gs.",
     "Entrega": null,
     "ID 3": null
    },
