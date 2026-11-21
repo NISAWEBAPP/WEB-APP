@@ -462108,10 +462108,10 @@ var json_Combinado_3 = {
     "Lote": "15",
     "Superficie": "376,5",
     "Estado": "Libre (R)",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Cuota": "680.000 Gs.",
+    "Total": "88.400.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs.",
+    "Contado": "44.200.000 Gs.",
     "Entrega": null,
     "field_11": null
    },
