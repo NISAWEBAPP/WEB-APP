@@ -440904,10 +440904,10 @@ var json_Combinado_3 = {
     "Lote": "5",
     "Superficie": "360,00",
     "Estado": "Libre (R)",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Cuota": "310.000 Gs.",
+    "Total": "40.300.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs.",
+    "Contado": "20.150.000 Gs.",
     "Entrega": null,
     "ID 3": null
    },
