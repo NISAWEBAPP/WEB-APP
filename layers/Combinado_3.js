@@ -113933,12 +113933,12 @@ var json_Combinado_3 = {
     "ID": "34-42-9",
     "Manzana": "42",
     "Lote": "9",
-    "Superficie": "",
+    "Superficie": "0.0000",
     "Estado": "Libre (R)",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Cuota": "800.000 Gs.",
+    "Total": "104.000.000 Gs.",
     "Descuento": "40%",
-    "Contado": "0 Gs."
+    "Contado": "62.400.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
