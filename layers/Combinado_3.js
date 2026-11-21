@@ -250346,10 +250346,10 @@ var json_Combinado_3 = {
     "Lote": "3",
     "Superficie": "398,38",
     "Estado": "Libre (R)",
-    "Cuota": "0 Gs.",
-    "Total": "0 Gs.",
+    "Cuota": "300.000 Gs.",
+    "Total": "39.000.000 Gs.",
     "Descuento": "50%",
-    "Contado": "0 Gs."
+    "Contado": "19.500.000 Gs."
    },
    "geometry": {
     "type": "Polygon",
