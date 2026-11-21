@@ -245262,7 +245262,7 @@ var json_Combinado_3 = {
     "Manzana": "9",
     "Lote": "3",
     "Superficie": "360,07",
-    "Estado": "Recuperado Libre",
+    "Estado": "Libre (R)",
     "Cuota": "0 Gs.",
     "Total": "0 Gs.",
     "Descuento": "50%",
